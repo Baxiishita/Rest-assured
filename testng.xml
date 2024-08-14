@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Ishita/IdeaProjects/APIAutomation1">
+        <classes><class name="tests.crud.CreateBookingTest">
+            <methods><include name="testCreateBook"/></methods></class>
+            <class name="tests.crud.CreateToken"><methods><include name="createToken"/></methods></class>
+            <class name="tests.crud.Featchbooking">
+    <methods><include name="getMethod"/></methods>
+</class></classes></test></suite>
